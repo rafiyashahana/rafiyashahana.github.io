@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <h1 align="center">Developer's Portfolio ✨</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <p align="center">
+    It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. Site URL / Demo: 
+    <a href="https://rafiyashahana.github.io/home">rafiyashahana.github.io/home</a>
+    <br />
+   
+  </p>
+</p>
 
-## Available Scripts
+## Technology Stack 🛠️
 
-In the project directory, you can run:
+Dependencies defined in package.json:
 
-### `npm start`
+[Reactjs](https://reactjs.org/)
+| [Bootstrap](https://getbootstrap.com/)
+| [Typist](https://github.com/jstejada/react-typist)
+| [GitHub API](https://developer.github.com/v3/repos/)
+| [Instagram API](https://www.instagram.com/developer/embedding/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Structure ⚓
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Navigation bar (optional)
+- Body
+  - Name | Profession
+  - Contact / Follow / Find me / Facebook / LinkedIn / GitHub / Instagram / Email / CodePen
+  - Resume | About me
+- About Me
+  - Display picture (optional)
+  - About myself, my Interests, Goals and Hobbies
+  - Things I'm good at (Skills)
+  - Resume button
+- Recent Projects (using GitHub API) (optional)
+- Leadership (optional)
+  - Paragraph
+  - Carousel images
+- Skills (optional)
+  - Technical Skills
+  - Soft Skills
+- Footer
+  - Footer Note (optional)
+  - Copyrights - open source
+  - Acknowledgements(
 
-### `npm test`
+## Sharing 💗
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Project is open source. Feel free to make your own version. All you need to do is to fork this repository, edit resume. Mark star ⭐ if you like the project.
 
-### `npm run build`
+## Prerequisites 🍪
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/) installed on your PC. You should also own a GitHub account.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Setup And Deployment 🔧
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. To Get Started, Fork this repository to your GitHub account:
+2. Clone the forked repo from your account using:
 
-### `npm run eject`
+   ```bash
+     git clone https://github.com/<your-username>/home.git
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. After editing run the following bash commands:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm install
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. To deploy website, run:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+    npm run build
+    npm run deploy
+   ```
 
-## Learn More
+   Or for deployment at \<username>.github.io, refer [READMEdocs/custom-deployment.md](./READMEdocs/custom-deployment.md) and [pages.js](./pages.js)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Congrats your site is up and running. To see it live, visit:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```https
+     https://<your-username>.github.io/home
+   ```
 
-### Code Splitting
+Facing issues? Feel free to contact at rafiyashahana@gmail.com.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Showcase 🚀
 
-### Analyzing the Bundle Size
+Have you changed something in the code to create your own version? Feel free to share with me, I will list them in this space.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Notice:
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project has been archived. Means that it is no longer actively maintained by developer. Free free to fork, use and maintain your own version.
