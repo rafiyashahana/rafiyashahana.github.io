@@ -55,7 +55,7 @@ const about = {
   imageLink: require("../editable-stuff/rafiyashahana.png"),
   imageSize: 375,
   message:
-    " Hi, my name is Rafiya and I'm a web developer with a passion for front end development and design. My main expertise is in front-end development, which includes a firm understanding of HTML, CSS, and Javascript. I also have been expanding my skills in different modern frameworks, libraries, and tools. When I'm not on the computer, I enjoy reading a new book, practising modern calligraphy or creating content for my food blog.",
+    " Hi, my name is Rafiya and I'm a web developer with a passion for front end development and design. My main expertise is in front-end development, which includes a firm understanding of HTML, CSS, and Javascript. I also have been expanding my skills in different modern frameworks, libraries, and tools. When I'm not glued to the computer, I find solace in the pages of a new book or the engaging world of insightful tech blogs.",
 
   resume: "https://rafiyashahana.github.io/online-resume-react/",
 };
@@ -69,7 +69,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "rafiyashahana", //i.e."johnDoe12Gh"
-  reposLength: 6,
+  reposLength: 10,
   specificRepos: [],
 };
 
@@ -134,20 +134,68 @@ const getInTouch = {
 
 const experiences = {
   show: true,
-  heading: "Experiences",
+  // heading: "Experiences",
+  heading: "Skills",
+  // data: [
+  //   {
+  //     role: "React Developer", // Here Add Company Name
+  //     companylogo: require("../assets/img/algotrady.png"),
+  //     webPage: "https://www.algotrady.io/",
+  //     date: "December 2020 – Present",
+  //   },
+  //   {
+  //     role: "Freelance",
+  //     webPage: "https://analysiscopilot.com/",
+  //     companylogo: require("../assets/img/analysiscopilot.png"),
+  //     date: "November 2022",
+  //   },
+  // ],
+
   data: [
     {
-      role: "React Developer", // Here Add Company Name
-      companylogo: require("../assets/img/algotrady.png"),
-      webPage: "https://www.algotrady.io/",
-      date: "December 2020 – Present",
+      name: "ReactJS",
+      icon: "devicon-react-original colored",
     },
     {
-      role: "Freelance",
-      webPage: "https://analysiscopilot.com/",
-      companylogo: require("../assets/img/analysiscopilot.png"),
-      date: "November 2022",
+      name: "HTML5",
+      icon: "devicon-html5-plain colored",
     },
+    {
+      name: "CSS3",
+      icon: "devicon-css3-plain colored",
+    },
+    {
+      name: "JavaScript",
+      icon: "devicon-javascript-plain colored",
+    },
+    {
+      name: "Tailwind",
+      icon: "devicon-tailwindcss-plain colored",
+    },
+    {
+      name: "SASS",
+      icon: "devicon-sass-original colored",
+    },
+    {
+      name: "Bootstrap",
+      icon: "devicon-bootstrap-plain colored",
+    },
+    {
+      name: "Typescript",
+      icon: "devicon-typescript-plain colored",
+    },
+    {
+      name: "Redux",
+      icon: "devicon-redux-original colored",
+    },
+    {
+      name: "Git",
+      icon: "devicon-git-plain colored",
+    },
+    // {
+    //   name: "Jest",
+    //   icon: "devicon-jest-plain colored",
+    // },
   ],
 };
 

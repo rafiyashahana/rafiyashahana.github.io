@@ -4,28 +4,41 @@ import { Col } from "react-bootstrap";
 
 const ExperienceCard = ({ data }) => {
   return (
-    <Col lg="6">
+    <div>
       <div className="pb-5 text-center">
-        <img
-          onClick={() => {
-            window.open(`${data.webPage}`, "_blank");
-          }}
+        {/* <img
+          // onClick={() => {
+          //   window.open(`${data.icon}`, "_blank");
+          // }}
           className=" bg-white mb-3"
-          src={data.companylogo}
+          src={data.icon}
           alt=""
           style={{
-            cursor: "pointer",
-            borderRadius: "50px",
-            width: "45%",
+            width: "50%",
+            height: "100%",
+            border: "solid red",
           }}
-        />
-        <p className="lead">
-          {data.role}
+        /> */}
+
+        <i
+          style={{
+            fontSize: "250%",
+            borderRadius: "12px",
+          }}
+          class={data.icon}
+        ></i>
+        <p
+          className="lead"
+          style={{
+            fontSize: "75%",
+          }}
+        >
+          {data.name}
           <br />
-          {data.date}
+          {/* {data.date} */}
         </p>
       </div>
-    </Col>
+    </div>
   );
 };
 
